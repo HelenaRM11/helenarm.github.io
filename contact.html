@@ -1,0 +1,172 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kauil's Treasure - Aleix Azuela</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/5963f83dd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="kauil-header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Kauil's Treasure</h1>
+            <h2>"Do you have what it takes to find the most important treasure of your life?"</h2>
+        <div class="icons">
+            <a href="https://www.microsoft.com/en-us/p/kauils-treasure/9mwb1jtnkdz6?activetab=pivot:overviewtab" target="_blank"><i class="fab fa-xbox fa-3x"></i></a>
+            <a href="https://store.playstation.com/es-es/product/EP3111-CUSA25418_00-JANDUSOFT0000001/" target="_blank"><i class="fab fa-playstation fa-3x"></i></a>
+            <a href="https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/KAUIL-S-TREASURE-1892234.html" target="_blank"><i class="fab fa-nintendo-switch fa-3x"></i></a>
+            <a href="https://kauils-treasure.itch.io/kauils-treasure" target="_blank"><i class="fab fa-itch-io fa-3x"></i></a>
+        </div>
+        </div>
+    </section>
+    
+<!---------- INFO ----------->
+    
+    <section class="about-us">
+        <section class="embed-video">
+            <h1>Launch Trailer</h1>
+            <iframe  width="853" height="553" src="https://www.youtube.com/embed/6JXmuoQclV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div class="row">
+            <div class="plaintext-col">
+                <h1>Synopsis</h1>     
+                <p>Kauil's Treasure is a new single-player adventure-puzzle game where you, the father of a teenage girl named Sophie, need to find your daughter before the horrors behind Kauil's Treasure find her first. <br><br>
+                Thus, you'll have to solve the hardest puzzles, avoid the rotten souls corrupted by Kauil, and use your whip to get to the most dangerous places and save your daughter. <br><br>
+                Kauil's Treasure is under a publishing contract with Jandusoft and has been published on PC, Nintendo Switch, PS4, PS5 , XBox One, XBox Series and has sold over 4000 copies so far.</p>
+                <h2>Specs</h2>
+                <p>· Role: Level Designer, Game Designer, Unity Developer<br><br>
+                · Genre: Casual, Puzzle, Adventure<br><br>
+                · Development Time:  10 months<br><br>
+                · Team Size: 4<br><br>
+                · Tools Used: Unity 3D, Google Sheets, Git Kraken<br><br>
+                </p>
+                
+            </div>
+            <div class="plaintext-col">
+                <h1>More Info</h1>
+                <p> This project was developed by a group of three students, one of which was me, during our third year studying the Interactive Digital Content BE Course taught by the Universitat of Barcelona.</p>
+                <h2>Responsabilities</h2>
+                <p>     
+                · One of the members defining the core game loops <br><br>
+                · One of the members that took part in the level and puzzle design process <br><br>
+                · Coming up with the data structures <br><br>
+                · Programmed the whole AI and the hook, pick up, throw and place systems</p>
+                <h2>Awards</h2>
+                <p>· ENTI Demoday - GOTY 2020<br><br>
+                · ENTI Demoday - Best Game out of CDI's 3rd year 2020<br><br>
+                </p>
+                
+        </div>
+        </div> 
+
+         
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Game Design</h1>     
+                <p>Kauil's Treasure started from a prototype that was developed by one of the team members. Only the main idea was kept of the prototype, you're an explorer in a temple that in order to advance you will have to solve and overcome different puzzles and challenges.<br><br>
+                From that point we did a brainstorming session where the game as a whole was born, though the mechanics didn't stay the same during the whole development process. Through iteration and testing we adapted the game mechanics to fit the feedback of the players.</p>
+            </div>
+            <div class="about-col">
+                <img src="images/kauils/jumping-rope.gif">
+            </div>
+        </div>   
+        <div class="row">
+            <div class="about-col">
+                <img src="images/kauils/puzzle-rocks.gif">
+            </div>
+            <div class="about-col">
+                <h1>Puzzle Design</h1>     
+                <p>Kauil's Treasure's gameplay heavily relays on Puzzles. They're present in all the levels and they're crucial to be able to advance through the level.
+                The puzzles were thought out cautiously to follow a correct progression and to be easy enough to fit our target.</p>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="about-col">
+                <h1>Level Design</h1>     
+                <p>All the Levels on Kauil's Treasure follow a strict rule, they have to be intuitive so the players won't get lost.
+                Having that in mind first we made a rough sketch on paper, to then make a greybox of the level on 3dsMax to see if the layout worked and then we implemented that greybox on Unity, to then test the level and iterate over it.<br><br>
+                Once finished the iteration process we would implement the final version of the level.
+                The levels I designed had less intuitive solutions, and sometimes that appeared to be a problem for the testers, but after adding a extra layer of hints and Player Guidance the players seemed to be less lost.</p>
+            </div>
+            <div class="about-col">
+                <img src="images/kauils/jumping-rope.gif">
+            </div>
+        </div>
+</section>
+    
+    <!---------- OTHER ----------->
+    
+    <section class="other">
+        <h1>Gif Gallery</h1>
+            <div class="row-image">
+                <div class="image-col">
+                    <img src="images/kauils/gif-level2.gif">
+                </div>
+                <div class="image-col">
+                    <img src="images/kauils/gif-level3.gif">
+                </div>
+            </div>
+            <div class="row-image">
+                <div class="image-col">
+                    <img src="images/kauils/gif-level4.gif">
+                </div>
+                <div class="image-col">
+                    <img src="images/kauils/gif-level5.gif">
+                </div>
+            </div>
+    </section>
+    
+    <section class="embed-video-bottom">
+            <h1>Full Gameplay</h1>
+            <iframe width="853" height="553" src="https://www.youtube.com/embed/2pQkjLQKKaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+
+<section class="footer">
+        <h4>Get in touch!</h4>
+        <div class="icons">
+            <a href="mailto: aleix.azuela@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            <a href="https://twitter.com/aleixindiedev" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/aleixazuela" target="_blank"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+</section>        
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
